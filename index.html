@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>SAAGMC</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/favicon-32x32.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+
+    <!-- Add Slick Carousel Theme CSS (optional) -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="path/to/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="path/to/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<style>
+    /* /* body {
+        margin: 0;
+        padding: 0;
+    } */
+    
+    .fixed-whatsapp-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    
+    .fixed-whatsapp-icon img {
+        width: 100%;
+        max-width: 80px;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .slide {
+        /* flex: 0 0 100vw; */
+        text-align: center;
+        color: white;
+        box-sizing: border-box;
+        /* background-size: cover; */
+        /* background-position: center; */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        /* width: 80%; */
+        /* height: 150vh; */
+        /* position: relative; */
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+    
+    .furniture_text {
+        /* pa-top: 150px; */
+        /* margin-bottom: 350px; */
+        /* padding-top: 50px; */
+        /* padding-bottom: 100px; */
+        width: 100%;
+        float: left;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        /* margin-top: 150px; */
+        /* margin-bottom: 350px; */
+        text-transform: uppercase;
+        caret-color: transparent;
+        outline: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    @media (min-width:700px) {
+        .fixed-whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            /* Adjust the bottom margin as needed */
+            right: 20px;
+            /* Adjust the right margin as needed */
+            cursor: pointer;
+            z-index: 1000;
+            /* Set a high z-index value to ensure it's above other elements */
+        }
+        .fixed-whatsapp-icon img {
+            width: 100%;
+            max-width: 130px;
+            height: auto;
+            border-radius: 50%;
+            /* Optional: Add border-radius for a rounded appearance */
+        }
+        .furniture_text {
+            /* pa-top: 150px; */
+            /* margin-bottom: 350px; */
+            padding-top: 200px;
+            padding-bottom: 300px;
+            font-size: 100px;
+        }
+        .slide {
+            /* flex: 0 0 100vw; */
+            text-align: center;
+            color: white;
+            box-sizing: border-box;
+            /* background-size: cover; */
+            /* background-position: center; */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: auto;
+            /* width: 80%; */
+            /* height: 150vh; */
+            /* position: relative; */
+            margin-top: 0px;
+        }
+    }
+    /* .slider {
+        width: 100%;
+        margin: auto;
+    } */
+    /* Style for each slide */
+    /* .fixed-whatsapp-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+    } */
+    /* .slick-prev,
+    .slick-next {
+        font-size: 24px;
+        color: #fff;
+        background: #000;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    
+    .slick-prev {
+        left: 10px;
+    }
+    
+    
+    .slick-next {
+        right: 10px;
+    } */
+    /* .slide {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+    } */
+</style>
+
+<body>
+    <!-- header section start -->
+
+
+    <div class="header_section">
+        <div> <img onclick="handleWhatsAppClick()" src="./images/wa-removebg-preview.png" alt="" class="fixed-whatsapp-icon" width="130px" height="130px" /> </div>
+
+        <div id="mainDiv" class="slider">
+
+            <div class="slide" style="background-image: url('./images/KEY1.jpg');">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo1.png" height="60px" width="80px"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <div class="search_icon">
+                                <ul>
+                                    <!-- Add your search icon content here -->
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+                <h1 class="furniture_text">INTERIOR DESIGN</h1>
+                <p class="there_text"></p>
+                <div class="contact_bt_main">
+                    <!-- <div class="contact_bt"><a href="contact.html">Contact Us</a></div> -->
+                </div>
+                <!-- <button class="slick-prev" aria-label="Previous" type="button">Previous</button>
+                <button class="slick-next" aria-label="Next" type="button">Next</button> -->
+            </div>
+
+            <div class="slide" style="background-image: url('./images/young-engineer-adjusting-autonomous-heating\ 1.jpg');">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo1.png" height="60px" width="80px"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <div class="search_icon">
+                                <ul>
+                                    <!-- Add your search icon content here -->
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+                <h1 class="furniture_text">HVAC</h1>
+                <p class="there_text"></p>
+                <div class="contact_bt_main">
+                    <!-- <div class="contact_bt"><a href="contact.html">Contact Us</a></div> -->
+                </div>
+                <!-- <button class="slick-prev" aria-label="Previous" type="button">Previous</button>
+                <button class="slick-next" aria-label="Next" type="button">Next</button> -->
+            </div>
+
+
+            <div class="slide" style="background-image: url('./images/mep\ 12.jpg');">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo1.png" height="60px" width="80px"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent3">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <div class="search_icon">
+                                <ul>
+                                    <!-- Add your search icon content here -->
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+                <h1 class="furniture_text">MEP SERVICES</h1>
+                <p class="there_text"></p>
+                <div class="contact_bt_main">
+                    <!-- <div class="contact_bt"><a href="contact.html">Contact Us</a></div> -->
+                </div>
+                <!-- <button class="slick-prev" aria-label="Previous" type="button"></button>
+                <button class="slick-next" aria-label="Next" type="button"></button> -->
+            </div>
+
+
+        </div>
+        <!-- header section end -->
+        <!-- services section start -->
+        <div class="services_section layout_padding">
+            <div class="container">
+                <h1 class="services_taital">Our Services</h1>
+                <p class="many_taital">This is a snapshot of our services </p>
+                <div class="services_section2 layout_padding">
+                    <div class="row">
+                        <div class="col-lg-3 card col-sm-6">
+                            <div class="icon_1"><img src="images/window.png"></div>
+                            <h2 class="furnitures_text">Glass partitions</h2>
+                            <p class="dummy_text1">We specialize in crafting elegant and functional</p>
+                            <p class="dummy_text" id="two">
+                                glass partitions, seamlessly integrating aesthetics with practicality to transform spaces with transparency and sophistication.
+                            </p>
+                            <div class="read_bt_main">
+                                <div class="read_bt" onclick="toggleDescription('two')">Read More</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card col-sm-6">
+                            <div class="icon_1"><img src="images/gypsum-board.png"></div>
+                            <h2 class="furnitures_text">Gypsum partitions</h2>
+                            <p class="dummy_text1">Experience the artistry of our gypsum partitions a perfect</p>
+                            <p class="dummy_text" id="one"> blend of precision and design expertise.</p>
+                            <div class="read_bt_main">
+                                <div class="read_bt" onclick="toggleDescription('one')">Read More</div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card  col-sm-6">
+                            <div class="icon_1"><img src="images/cei.png"></div>
+                            <h2 class="furnitures_text"> False ceiling</h2>
+                            <p class="dummy_text1">we bring innovation overhead, seamlessly integrating</p>
+                            <p class="dummy_text" id="three"> aesthetics and functionality to create stylish and versatile false ceiling solutions that redefine the ambiance of any room.</p>
+                            <div class="read_bt_main">
+                                <div class="read_bt" onclick="toggleDescription('three')">Read More</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="services_section2 layout_padding">
+                    <div class="row">
+                        <div class="col-lg-3 card col-sm-6">
+                            <div class="icon_1"><img src="images/top-view_3134751.png"></div>
+                            <h2 class="furnitures_text">Acoustic ceiling
+                            </h2>
+                            <p class="dummy_text1">we blend design and acoustic engineering to create spaces</p>
+                            <p class="dummy_text" id="four"> that not only captivate the eye but also ensure optimal sound performance, delivering a harmonious environment for all</p>
+                            <div class="read_bt_main">
+                                <div class="read_bt" onclick="toggleDescription('four')">Read More</div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card col-sm-6">
+                            <div class="icon_1"><img src="images/parquet.png"></div>
+                            <h2 class="furnitures_text">Floor parquet </h2>
+                            <p class="dummy_text1">we bring precision and style together,crafting floor parquet</p>
+                            <p class="dummy_text" id="five"> solutions that not only stand the test of time but also add a touch of sophistication to every space</p>
+                            <div class="read_bt_main">
+                                <div class="read_bt" onclick="toggleDescription('five')">Read More</div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card  col-sm-6">
+                            <div class="icon_1"><img src="images/yoga-mat_2531167.png"></div>
+                            <h2 class="furnitures_text">Floor carpet
+                            </h2>
+                            <p class="dummy_text1">
+                                we offer a diverse range of carpets that combine plush
+                            </p>
+                            <p class="dummy_text" id="six"> textures with durability, enhancing the aesthetics and comfort of your spaces.</p>
+                            <div class="read_bt_main">
+                                <div class="read_bt" onclick="toggleDescription('six')">Read More</div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <!-- services section end -->
+        <!-- about section start -->
+        <div class="about_section layout_padding">
+            <div class="container" style="padding-bottom: 50px;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="about_text">About Us</h1>
+                        <p class="lorem_text" style="padding-bottom: 0px;">Established in 2008 in the U.A.E., Mr. Biju C K, Shams Al Arab General Maint. Cont. LLC has been part of the development process in the UAE for more than 12 years. It will continue to be an active partner and one of the leading
+                            contracting companies in the U.A.E.</p>
+                        <div class="read_bt1"><a href="about.html">Read More</a></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image_1"><img src="images/aboutbg1-removebg-preview (1).png"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- about section end -->
+        <!-- furnitures section start -->
+        <div class="projects_section layout_padding">
+            <div class="container">
+                <h1 class="our_text">Our projects</h1>
+                <p class="ipsum_text"> Where Vision Meets Reality in Every Project</p>
+                <div id="main_slider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="projects_section2">
+                                <div class="container_main2">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/glasstwo 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Glass partitions</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/gypsum 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Gypsum partitions</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/ceiling2 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">False ceiling</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="projects_section2">
+                                <div class="container_main1">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/accuo 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Acoustic ceiling</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/wooden 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Floor parquet</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/tiling 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Floor tiling</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="projects_section2">
+                                <div class="container_main1">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/paint2 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">External painting</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/interlock 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Interlock work</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="container_main1">
+                                                <img src="images/carpendor 1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <h1 class="modern_text">Carpentry work</h1>
+                                                <div class="middle">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- furnitures section end -->
+        <!-- who section start -->
+        <div class="who_section layout_padding">
+            <div class="container">
+                <h1 class="who_taital">who we are ?</h1>
+                <h4 class="designer_text"></h4>
+                <p class="lorem_ipsum_text"> With a legacy spanning over 12 years, our construction journey is defined by excellence and innovation. Founded in 2008, we have become leaders in the industry, specializing in diverse projects such as glass and gypsum partitions, innovative
+                    false ceilings, and more. Our commitment to safety, environmental consciousness, and offices in Ajman, Sharjah, and Dubai reflect our dedication to creating transformative spaces. Explore our gallery to witness a narrative of passion,
+                    precision, and a relentless pursuit of construction excellence. Step into a world where each project is a testament to building a better future.</p>
+            </div>
+            <div class="get_bt_main">
+            </div>
+        </div>
+        <!-- who section end -->
+        <!-- projects section start -->
+
+        <!-- projects section end -->
+        <!-- client section start -->
+        <div class="clients_section layout_padding">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text"> Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c2.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">EJADAH ASSET MANAGEMENT GROUP</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c1.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">MICROSOFT</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c3.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">ARKAN SECURITY MANAGEMENT SOLUTIONS</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c4.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">DUBAI DEVELOPMENT AUTHORITY</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c5.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">TECOM GROUP</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row" style="flex-wrap:wrap ;">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c6.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">DUBAI ASSET MANAGEMENT</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row" style="flex-wrap:wrap ;">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c7.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">DUBAI PROPERTIES</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/c8.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">3M</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/taziz.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">TAZIZ PROPERTY MANAGEMENT SOLUTION</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/idama.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">IDAMA FACILITIES MANAGEMENT SOLUTION</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/design.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">DUBAI DESIGN DISTRICT</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/global.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">GLOBAL VILLAGE</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/blue.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text"></h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/t.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">TRANSGUARD GROUP</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/client16.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">SOFITEL</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/client15.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">YALLA</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="client_text">Our happy clients</h1>
+                            <p class="ipsum_text">Building Success Through Trusted Partnerships</p>
+                            <div class="clients_section2 layout_padding">
+                                <div class="client_1">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7"><img src="images/client17.png"></div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text">PUBLICIS MEDIA</h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client_2" Style="border: none;">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="image_7">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h1 class="loksans_text"></h1>
+                                            <p class="dolor_ipsum_text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- client section end -->
+        <!-- contact section start -->
+        <div class="contact_section layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="contact_text" style="color: white;">CONTACT US</h1>
+                        <div class="mail_sectin">
+                            <div class="col-md-6" style="padding-left: 0px;">
+                                <h1>Dubai</h1>
+
+                                <li>Location: Hassan Al Bahri Compound Warehouse 33B Opposite JOTUN Paints Industrial Area 2 Al Quoz, Dubai, UAE P.O Box: 18953</li>
+                                <li>TRN 100325711800003</li>
+                                <li style="width: 100%;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" className="m-1">
+                                        <img src='./images/whatsapp (2).png' alt="" height="25px" width="25px" />
+                                    </a>
+
+
+
+
+                                    050-2239495</li>
+                                <li>
+                                    <a href="#" target="_blank" rel="noopener noreferrer" className="m-1">
+                                        <img src='./images/phone (1).png' alt="" height="25px" width="25px" />
+                                    </a>
+                                    04-3545677 </li>
+
+                            </div>
+                            <div class="col-md-6">
+                                <h1>Ajman</h1>
+
+                                <li>Location: Shop No.2 Musabbah Building Mowaihat 2 Ajman
+                                </li>
+
+                                <li style="width: 100%;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" className="m-1">
+                                        <img src='./images/email.png' alt="" height="25px" width="25px" />
+                                    </a>info@shamsalarabgeneralmaint.ae
+                                </li>
+                                <li style="margin-bottom: 20px;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" className="m-1">
+                                        <img src='./images/email.png' alt="" height="25px" width="25px" />
+                                    </a>bijuck@shamsalarabgeneralmaint.ae </li>
+                                </li>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="map_main">
+                            <div class="map-responsive">
+                                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Hassan+Al+Bahri+Compound+Warehouse+33B+Opposite+JOTUN+Paints+Industrial+Area+2+Al+Quoz+Dubai+UAE+P.O+Box:+18953" width="600" height="500" frameborder="0"
+                                    style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact section end -->
+        <!-- footer section start -->
+
+        <div class="footer_section layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="help_text">
+                            <h2>CONTACT</h2>
+                            <li> 04-3545677</li>
+                            <li>info@shamsalarabgeneralmaint.ae</li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="help_text">
+                            <h2>LET US HELP YOU</h2>
+                            <ul>
+                                <li>Expert advice on your projects</li>
+                                <li>Custom solutions tailored to your requirements</li>
+                                <li>Responsive customer support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h2 class="customer_text">Useful Links</h2>
+                        <a href="about.html" style="color: white;"> About Us</a><br><a href="contact.html " style="color: white;">Contact</a> <br><a href="services.html" style="color: white;"> Servies</a><br><a href="shop.html" style="color: white;">Project</a><br>
+
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h2 class="customer_text">OUR Design</h2>
+                        <ul>
+                            <li>Innovative and functional design</li>
+                            <li>Expertise in various design disciplines</li>
+                            <li>Customized solutions for every project</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--  footer section end -->
+        <!-- copyright section start -->
+        <div class="copyright_section">
+            <div class="container">
+                <p class="copyright_text">© 2023 Shams Al Arab General Maint. Cont. LLC. All Rights Reserved
+                    <a href="YourDesignerWebsite.com"></a>
+                </p>
+            </div>
+            <!-- copyright section end -->
+            <!-- Javascript files-->
+            <script>
+            </script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/jquery-3.0.0.min.js"></script>
+            <script src="js/plugin.js"></script>
+            <!-- sidebar -->
+            <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="js/custom.js"></script>
+            <!-- javascript -->
+            <script src="js/owl.carousel.js"></script>
+            <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <!-- Add Slick Carousel CSS -->
+
+
+            <!-- Add jQuery (required by Slick Carousel) -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <!-- Add Slick Carousel JS -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <!-- Slick Carousel JS -->
+            <script type="text/javascript" src="path/to/slick.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var navbarToggler = document.querySelector('.navbar-toggler');
+
+                    if (navbarToggler) {
+                        navbarToggler.addEventListener('click', function() {
+                            var overlays = document.querySelectorAll('.background-overlay');
+                            overlays.forEach(function(overlay) {
+                                overlay.style.filter = overlay.style.filter ? '' : 'blur(10px)';
+                            });
+                        });
+                    }
+                });
+            </script>
+
+
+
+
+
+            <script src="path/to/jquery-3.6.4.min.js"></script>
+            <script src="path/to/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+            <script>
+                $(document).ready(function() {
+                    $('.slider').slick({
+                        dots: true,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        pauseOnHover: true,
+                        infinite: false,
+                        speed: 400,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        prevArrow: $('.slick-prev'),
+                        nextArrow: $('.slick-next')
+                    });
+                });
+                const handleWhatsAppClick = () => {
+                    const countryCode = "+971"; // Replace with the actual country code
+                    const phoneNumber = "";
+                    const whatsappUrl = `https://wa.me/${countryCode}${phoneNumber}`;
+                    window.location.href = whatsappUrl;
+                };
+            </script>
+
+
+
+
+            <script>
+                function toggleDescription(elementId) {
+                    var description = document.getElementById(elementId);
+                    description.style.display = (description.style.display === "none" || description.style.display === "") ? "block" : "none";
+                }
+            </script>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+</body>
+
+</html>
